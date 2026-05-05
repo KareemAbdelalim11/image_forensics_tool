@@ -31,6 +31,7 @@ This tool helps investigators extract and analyze this data to reconstruct event
 - 🖥️ User-Friendly GUI (PyQt5)  
 - 📦 Standalone `.exe` Application  
 
+---
 
 ## 🧠 System Workflow
 Image → EXIF Extraction → GPS Decoding → Anomaly Detection
@@ -43,6 +44,7 @@ Correlation Engine
 ↓
 PDF Forensic Report
 
+---
 
 ## 📦 Download Executable
 
@@ -50,46 +52,48 @@ Download the ready-to-use application:
 
 👉 https://drive.google.com/file/d/1XrCIqek-U2ZMcOs-EPJLV507zsmv0lDO/view?usp=sharing
 
+---
 
 ## ⚙️ Setup Instructions 
 
 1️⃣ Clone Repository
 
-git clone <https://github.com/KareemAbdelalim11/image_forensics_tool.git>
-cd image-forensics-tool
+- git clone <https://github.com/KareemAbdelalim11/image_forensics_tool.git>
+- cd image-forensics-tool
 
 2️⃣ Install Dependencies
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 3️⃣ Run Application
-python -m gui.app
+- python -m gui.app
 
+---
 
 ## 🖥️ How to Use
 1. Load Images
-    . Click Select Images
-    . Or drag & drop images into the app
+    - Click Select Images
+    - Or drag & drop images into the app
 
 2. Automatic Analysis
-The system will:
-    . Extract EXIF metadata
-    . Decode GPS (if available)
-    . Generate SHA-256 hash
-    . Detect anomalies
+    - Extract EXIF metadata
+    - Decode GPS (if available)
+    - Generate SHA-256 hash
+    - Detect anomalies
 
 3. View Results
-Displayed in GUI:
-    📁 Image path
-    🔐 Hash
-    📍 GPS location
-    ⚠️ Detected issues
+    - 📁 Image path
+    - 🔐 Hash
+    - 📍 GPS location
+    - ⚠️ Detected issues
 
 4. Generate Report
-Click:
+- Click:
     "Generate PDF Report"
 
-This produces:
+- This produces:
     "forensic_report.pdf"
+
+---
 
 ## 📄 Report Includes
     Metadata analysis
@@ -99,12 +103,14 @@ This produces:
     Timeline visualization
     Hash values
 
+---
 
 ## ⚠️ Known Limitations
     Cannot recover removed metadata
     GPS only works if saved in EXIF
     Timeline depends on timestamp availability
 
+---
 
 ## 👨‍💻 Author
     Kareem Mohamed
