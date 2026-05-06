@@ -110,7 +110,7 @@ Download the ready-to-use application:
     GPS only works if saved in EXIF
     Timeline depends on timestamp availability
 
----
+
 
 ## 👨‍💻 Author
     Kareem Mohamed
