@@ -1,0 +1,8 @@
+Pillow
+folium
+PyQt5
+PyQtWebEngine
+matplotlib
+pandas
+reportlab
+pyinstaller
